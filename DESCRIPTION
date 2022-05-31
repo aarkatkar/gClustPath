@@ -1,0 +1,35 @@
+Package: gClustPath
+Type: Package
+Title: Clustering and pathway analysis using gamma distributions
+Version: 0.2.1
+Authors@R:
+    c(person(given = "Anooj",
+             family = "Arkatkar",
+             role = c("aut", "cre"),
+             email = "arkatkar@msu.edu"))
+Description: Clustering and pathway analysis of omics data is performed by
+    the use of a gamma distributed affinity/dissimilarity measure.
+    This package assumes null inter-cluster correlations and forms 
+    pathways that minimize any null linking correlations between
+    elements.
+License: MIT
+Encoding: UTF-8
+LazyData: true
+Imports:
+    stats,
+    coop,
+    Rfast,
+    cluster,
+    ggplot2,
+    umap,
+    scales,
+    igraph,
+    data.table,
+    corpcor
+Depends: R (>= 4.0)
+biocViews: Clustering, Software, RNASeq
+Suggests: 
+    rmarkdown,
+    knitr
+VignetteBuilder: knitr
+RoxygenNote: 7.2.0

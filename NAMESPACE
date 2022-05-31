@@ -1,0 +1,14 @@
+importFrom("stats", "cor", "pgamma", "prcomp", "pt", "sd",
+                "weighted.mean")
+
+export(pMatrix)
+export(gammaCluster)
+export(gammaPlot)
+export(gMST)
+export(minPath)
+export(eigenGenes)
+export(dLaplace)
+export(distBoot)
+export(pBoot)
+export(recGamma)
+export(forceUniform)
